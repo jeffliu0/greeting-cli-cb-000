@@ -6,3 +6,5 @@ def greet
   name = gets.strip
   greeting(name)
 end
+
+greet
