@@ -15,7 +15,7 @@ describe './bin/greet executing a CLI Application' do
     
     expect(self).to receive(:gets).and_return("Don")
     name = get_variable_from_file("./bin/greet", "name")
-
+    puts name
     expect(name).to eq("Don")
   end
 
